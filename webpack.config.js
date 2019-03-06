@@ -2,8 +2,8 @@ var webpack = require('webpack')
 
 module.exports = {
   entry: {
-    'NoSleep': `${__dirname}/src/index.js`,
-    'NoSleep.min': `${__dirname}/src/index.js`
+    'nosleep': `${__dirname}/src/index.js`,
+    'nosleep.min': `${__dirname}/src/index.js`
   },
   output: {
     path: `${__dirname}/dist`,
