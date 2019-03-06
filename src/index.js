@@ -17,6 +17,7 @@ class NoSleep {
       this.noSleepVideo.setAttribute('muted', '')
       this.noSleepVideo.setAttribute('title', 'No Sleep')
       this.noSleepVideo.setAttribute('playsinline', '')
+      this.noSleepVideo.setAttribute('autoplay', '')
 
       this._addSourceToVideo(this.noSleepVideo, 'webm', webm)
       this._addSourceToVideo(this.noSleepVideo, 'mp4', mp4)
